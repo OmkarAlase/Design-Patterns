@@ -1,0 +1,11 @@
+package Web;
+
+import Interface.Shape;
+
+public class WebTriangle implements Shape {
+
+    @Override
+    public void generateShape() {
+        System.out.println("Generating Web Triangle.");
+    }
+}
